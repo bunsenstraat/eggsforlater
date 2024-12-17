@@ -39,13 +39,13 @@ zwanger">
 <body>
 <div id='main'>
 <ul id='menu'>
-	<li><a class='selected' target=_self href='index.php'>Home</a></li>
-	<li><a target=_self href='trailer.php'>Trailer</a></li>
-	<li><a target=_self href='synopsis.php'>Synopsis</a></li>
-	<li><a target=_self href='crew.php'>Crew</a></li>
-	<li><a target=_self href='screenings.php'>Screenings</a></li>
-	<li><a target=_self href='pers.php'>Pers</a></li>
-	<li><a target=_self href='contact.php'>Contact</a></li>
+	<li><a class='selected' target=_self href='index'>Home</a></li>
+	<li><a target=_self href='trailer'>Trailer</a></li>
+	<li><a target=_self href='synopsis'>Synopsis</a></li>
+	<li><a target=_self href='crew'>Crew</a></li>
+	<li><a target=_self href='screenings'>Screenings</a></li>
+	<li><a target=_self href='pers'>Pers</a></li>
+	<li><a target=_self href='contact'>Contact</a></li>
 	<li><a target=_blank href='http://www.facebook.com/pages/Ei-voor-later/158976130798074'><img src="fb.jpg" alt="fb"/></a></li>
 </ul>
 
