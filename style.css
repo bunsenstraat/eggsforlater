@@ -1,0 +1,319 @@
+/* @override http://localhost/~erwinvankralingen/retailers/marieke/style.css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+div#main {
+	width: 950px;
+	height: 613px;
+	background: url(bg.jpg) no-repeat;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -475px;
+	margin-top: -306px;
+	color: #000;
+	font-size: 14px;
+	line-height: 16px;
+	
+}
+
+a:hover{color:white;}
+
+ul#menu li a {
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	
+}
+
+ul#menu li a.selected {
+	color: white;
+}
+
+div#hometext {
+	text-align: left;
+	position: relative;
+	width: 500px;
+	font-size: 20px;
+	line-height: 26px;
+	left: 380px;
+	top: 270px;
+	text-align: center;
+	
+}
+
+img#imgres {
+	float: right;
+	width: 231px;
+	clear: both;
+	position: relative;
+	
+}
+
+img#imgpersbeeld {
+	width: 231px;
+	float: right;
+	position: relative;
+	
+}
+
+div#footer {
+
+	width: 950px;margin: auto;
+	position: relative;
+	top: 50%;
+	text-align: center;
+
+}
+
+div#prs {
+	height:400px;
+}
+#stills{
+	padding-top: 10px;
+}
+
+#stills img {
+	margin-bottom: 16px;
+}
+
+div#reg {
+	height:340px;
+}
+
+hr {
+	color: #000000;
+	background-color:#000000;
+height: 1px;
+border-style: none;
+
+}
+
+
+
+a {
+	color: black;
+
+}
+
+.contentframe {
+	width: 549px;
+	height:363px;
+	overflow: auto;
+	position: relative;
+	left: 400px;
+	top: 85px;
+	
+	
+}
+
+h1 {
+	font-size: 20px;
+}
+
+.contentframe div {
+	width: 500px;
+}
+
+div.crewbottom {
+	margin-top: 20px;
+}
+
+#crew div.crewbottom a {
+
+}
+
+#crew div.leftcol h3 {
+	margin-top: 40px;
+}
+
+#crew div.imagecol {
+	width: 109px;
+	float: right;
+	position: relative;
+	top: 0px;	
+}
+
+#crew div.imagecol img {
+	position: relative;
+	width: 110px;
+	height: 110px;	
+}
+
+img#i2 {
+	
+	top: 160px;
+}
+
+img#i1 {
+	top: 18px;
+}
+
+img#i3 {
+	top: 321px;
+}
+img#i4 {
+	top: 245px;
+}
+
+
+
+div.header {
+	width: 500px;
+	position: relative;
+	left: 400px;
+	top:80px;
+	margin-bottom: 0px;
+}
+
+div#contact {
+
+}
+
+
+.metainfo td {
+	width: 150px;
+}
+
+div#synopsis {
+
+	
+}
+
+
+div.leftcol {
+	width: 370px;
+	
+}
+
+
+div#fb {
+	width:600px;
+	height: 80px;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -140px;
+	margin-top: 320px;
+
+}
+
+
+a#share {
+	float: left;
+	margin-right: 20px;
+	margin-top:  2px;
+}
+
+ul#menu li a:hover {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+ul#menu {
+	position: relative;
+	left: 87px;
+	top: 550px;
+    width:800px;
+    height:16px;
+	
+}
+
+
+#media table {
+	width: 100%;
+	margin-top: 0px;
+}
+
+#media table tbody tr {
+	border-bottom: thin solid #000;
+
+}
+
+.medialeft {
+	width: 187px;
+	vertical-align:top;
+}
+
+
+
+#media table tbody tr td {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#screenings table {
+	width: 100%;
+	margin-top: 6px;
+}
+
+#screenings table th {
+	text-align: left;
+	padding-bottom: 6px;
+}
+
+#screenings table tbody tr {
+	border-bottom: thin solid #000;
+
+}
+
+#screenings table tbody tr td {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+ul#menu li {
+	float: left;
+	margin-right: 22px;
+}
